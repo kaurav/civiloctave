@@ -1,5 +1,5 @@
-load in.sage
-load ma.sage
+load ('in.sage')
+load ('ma.sage')
 
 phiPrime = atan(0.67 * tan(phi))
 NcPrime = (Bearing_capacity_factors[:,1],Bearing_capacity_factors[:,2], phiPrime)
